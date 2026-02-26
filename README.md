@@ -24,11 +24,11 @@
 
 ## `$ whoami` — About Me
 
-I'm a **Systems Engineering student** with a progressively specialized focus on **cybersecurity, systems architecture, and network design**. My goal is not to build generic applications — it's to understand how systems work from their foundations: operating systems, data structures, network protocols, traffic segmentation, and secure architecture design.
+I'm a **Systems Engineering student** with a progressively specialized focus on **cybersecurity, systems architecture, and network design**. My goal is to explore the blue and red team world, to protect and approach the best version of me for the world
 
-I am currently building **personal Red Team / Blue Team labs** to experiment with vulnerability analysis, network monitoring, controlled attack simulation, and defense strategies. My learning approach is practical and strategic: I don't just consume theory — I build environments, break things intentionally, and understand why they break.
+I am currently building **personal Red Team / Blue Team labs** to experiment with vulnerability analysis, network monitoring, controlled attack simulation, and defense strategies. My learning approach is practical and strategic, I like to break things intentionally and try to enforce the security of anything I can in a controlled area.
 
-My long-term objective is to **design secure, resilient, and scalable infrastructures** aligned with the security challenges of 2030: zero-trust architectures, adversarial threat modeling, and defense-in-depth systems that hold up under real-world pressure — not just audits.
+My long-term objective is to **design secure, resilient, and scalable infrastructures** aligned with the OWASP security challenges of 2030, zero-trust architectures, adversarial threat modeling, and defense-in-depth systems that hold up under real-world pressure.
 
 ---
 
