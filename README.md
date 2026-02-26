@@ -1,7 +1,5 @@
 <div align="center">
 
-<!-- BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,50:0d1b4b,100:1a0533&height=220&section=header&text=IVÁN%20LASTRA&fontSize=72&fontColor=00f5ff&fontAlignY=40&desc=Cybersecurity%20Engineer%20in%20Progress%20%7C%20Systems%20%26%20Network%20Architect%20in%20Training&descSize=16&descAlignY=65&descColor=a78bfa&animation=fadeIn" width="100%"/>
 
 <!-- TERMINAL BLOCK -->
 ```
