@@ -1,164 +1,156 @@
 <div align="center">
 
-
-<!-- TERMINAL BLOCK -->
 ```
-┌──[lastra@sec-lab]─[~/environment]
+┌──[root@cyber-ai]─[~/perfil]
 │
-├─$ > initializing secure environment...          ✔ loaded
-├─$ > monitoring network traffic...               ✔ active
-├─$ > hardening attack surface...                 ✔ running
-├─$ > building red/blue lab...                    ✔ in progress
-└─$ > identity: systems & security architect      █████░░░░░ 52%
+├─$ > secure identity online...            ✔ ready
+├─$ > training threat model...              ✔ active
+├─$ > compiling AI defenses...               ✔ online
+├─$ > reinforcing codebase...               ✔ immutable
+└─$ > status: Cybersecurity + AI specialist ██████████
 ```
 
 <br>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&pause=1000&color=00F5FF&center=true&vCenter=true&width=600&lines=Root+access+denied+%E2%80%94+building+the+keys+instead.;Threat+modeling+%7C+Traffic+analysis+%7C+Secure+design.;Red+team+mindset.+Blue+team+discipline.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1000&color=00F5FF&center=true&vCenter=true&width=700&lines=Ciberseguridad+%7C+AI+%7C+Software+Seguro.;Python+%7C+C+%7C+C%2B%2B+%7C+OOP+%7C+TypeScript+%7C+LLMs.;Red+team+mindset+%7C+Blue+team+discipline+%7C+Automation+Powered.)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
-## `$ whoami` — About Me
+## `$ whoami` — Sobre mí
 
-I'm a **Systems Engineering student** with a progressively specialized focus on **cybersecurity, systems architecture, and network design**. My goal is to explore the blue and red team world, to protect and approach the best version of me for the world
+Soy un estudiante de **Ingeniería de Sistemas** con una vocación clara: construir soluciones donde **la seguridad y la inteligencia artificial se potencian mutuamente**.
 
-I am currently building **personal Red Team / Blue Team labs** to experiment with vulnerability analysis, network monitoring, controlled attack simulation, and defense strategies. My learning approach is practical and strategic, I like to break things intentionally and try to enforce the security of anything I can in a controlled area.
+Mi enfoque combina:
 
-My long-term objective is to **design secure, resilient, and scalable infrastructures** aligned with the OWASP security challenges of 2030, zero-trust architectures, adversarial threat modeling, and defense-in-depth systems that hold up under real-world pressure.
+- **Ciberseguridad ofensiva y defensiva**: laboratorios Red Team / Blue Team, análisis de amenazas, detección y respuesta.
+- **Desarrollo de software seguro**: **Python**, **C**, **C++**, **TypeScript**, **POO** y arquitecturas robustas.
+- **IA aplicada**: desarrollos con **LLMs**, automatización de procesos, análisis de logs y generación de informes inteligentes.
+
+> Mi misión es diseñar sistemas que no solo funcionen, sino que sobrevivan y aprendan frente a ataques reales.
 
 ---
 
-## `$ ls ./arsenal` — Cyber Arsenal
+## `$ ls ./skillset` — Habilidades principales
 
 <div align="center">
 
-### ⚙️ Systems & Low-Level
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=00f5ff&labelColor=0a0a0f)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=000000&labelColor=0a0a0f)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=00f5ff&labelColor=0a0a0f)
-![Assembly](https://img.shields.io/badge/x86_ASM-6E4C9F?style=for-the-badge&logoColor=a78bfa&labelColor=0a0a0f)
+### 🤖 AI & Automation
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0a0a0f)
+![LLMs](https://img.shields.io/badge/LLMs-00D8FF?style=for-the-badge&logo=openai&logoColor=white&labelColor=0a0a0f)
+![NLP](https://img.shields.io/badge/NLP-FF6E00?style=for-the-badge&logo=python&logoColor=white&labelColor=0a0a0f)
+![Data](https://img.shields.io/badge/Data_Pipelines-0088CC?style=for-the-badge&logo=googlecloud&logoColor=white&labelColor=0a0a0f)
 
-> Memory management · Process architecture · Concurrency · Internal OS structures
-
----
-
-### 🌐 Networking
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=00f5ff&labelColor=0a0a0f)
-![GNS3](https://img.shields.io/badge/GNS3-FF6600?style=for-the-badge&logoColor=white&labelColor=0a0a0f)
-![Cisco](https://img.shields.io/badge/Cisco_IOS-1BA0D7?style=for-the-badge&logo=cisco&logoColor=00f5ff&labelColor=0a0a0f)
-![VLAN](https://img.shields.io/badge/VLAN%2FRouting-0d1b4b?style=for-the-badge&logoColor=a78bfa&labelColor=0a0a0f)
-
-> VLAN design · RIP / OSPF routing · Packet analysis · Network segmentation · Traffic flow architecture
+> Modelado de prompts · análisis de amenazas · automatización inteligente · generación de inteligencia defensiva
 
 ---
 
-### 🔐 Security
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-268BEE?style=for-the-badge&logo=kalilinux&logoColor=00f5ff&labelColor=0a0a0f)
-![Nmap](https://img.shields.io/badge/Nmap-214478?style=for-the-badge&logoColor=a78bfa&labelColor=0a0a0f)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logoColor=white&labelColor=0a0a0f)
-![Threat Modeling](https://img.shields.io/badge/Threat_Modeling-1a0533?style=for-the-badge&logoColor=a78bfa&labelColor=0a0a0f)
+### 💻 Desarrollo & Sistemas
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white&labelColor=0a0a0f)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=0a0a0f)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=0a0a0f)
+![OOP](https://img.shields.io/badge/OOP-6E4C9F?style=for-the-badge&logo=visual-studio&logoColor=white&labelColor=0a0a0f)
 
-> Vulnerability analysis · Hardening principles · Attack surface reduction · Red/Blue team methodology
+> Programación orientada a objetos · diseño de software seguro · optimización de rendimiento · dev & ops colaborativo
+
+---
+
+### 🔐 Ciberseguridad & Redes
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white&labelColor=0a0a0f)
+![Nmap](https://img.shields.io/badge/Nmap-214478?style=for-the-badge&logo=nmap&logoColor=white&labelColor=0a0a0f)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white&labelColor=0a0a0f)
+![Cloud](https://img.shields.io/badge/Cloud_Security-00F5FF?style=for-the-badge&logo=amazonaws&logoColor=white&labelColor=0a0a0f)
+
+> Hardening · análisis de tráfico · threat modeling · defensa proactiva
 
 </div>
 
 ---
 
-## `$ cat ./mission.txt` — Current Mission
+## `$ cat ./mission.txt` — Misión actual
 
 ```yaml
 operator   : Iván Lastra
-status     : ACTIVE
-focus_areas:
-  - Building personal cybersecurity lab (Red Team / Blue Team)
-  - Deepening network fundamentals: routing, segmentation, traffic analysis
-  - Advancing in secure system architecture design
-  - Studying for certifications: eJPT → CEH → OSCP (roadmap)
-  - Developing low-level systems understanding (OS internals, memory, processes)
-direction  : Offensive knowledge. Defensive architecture. No shortcuts.
-timeline   : 2025 → 2030
+status     : ACTIVO
+role       : Cybersecurity + AI Engineer
+focus      : Software seguro, amenazas dinámicas, inteligencia defensiva, redes resilientes
+skills     : Python, C, C++, TypeScript, OOP, LLMs, network security, red/blue labs
+objective  : Diseñar soluciones donde la IA refuerza la seguridad y el software es confiable
+roadmap    : eJPT → CEH → OSCP → Ingeniería de Sistemas Avanzada
+current    : "Automatización de detección de incidentes con AI y análisis de logs en tiempo real"
 ```
 
 ---
 
-## `$ ls ./projects` — Selected Projects
+## `$ ls ./highlights` — Logros destacados
 
 <details>
-<summary><b>🔬 Personal Security Lab — Red/Blue Environment</b></summary>
-<br>
+<summary><b>🧠 AI + Cybersecurity Integration</b></summary>
 
-**Problem:** No real-world learning without a real-world environment. Commercial courses don't replicate adversarial conditions.
-
-**Architecture:** Isolated virtual network with segmented VLANs — one subnet for attacker machines (Kali), one for victim hosts (Windows Server / Ubuntu), one for monitoring (IDS/IPS, Wireshark capture nodes).
-
-**Stack:** GNS3 · VirtualBox · Kali Linux · Wireshark · Suricata · pfSense
-
-**Current scope:** Reconnaissance → scanning → exploitation → lateral movement → detection and response.
+- Creación de pipelines en **Python** para ingestión segura de datos y análisis de seguridad.
+- Uso de **LLMs** para generar reportes de amenazas y recomendaciones de mitigación.
+- Implementación de prototipos de monitoreo inteligente que priorizan alertas críticas.
 
 </details>
 
 <details>
-<summary><b>📡 Network Architecture Simulation — Enterprise Topology</b></summary>
-<br>
+<summary><b>🛠️ Software Seguro & Rendimiento</b></summary>
 
-**Problem:** Understanding theoretical routing protocols means nothing without building and troubleshooting real topologies under failure conditions.
-
-**Architecture:** Multi-router topology with OSPF dynamic routing, inter-VLAN routing via Layer 3 switching, ACLs for traffic control, and network segmentation by departments.
-
-**Stack:** GNS3 · Cisco IOS · OSPF / RIP · VLAN trunking · STP
-
-**Outcome:** Ability to design, diagnose, and optimize medium-scale enterprise network topologies.
+- Desarrollo en **C/C++** con enfoque en memoria segura y manejo de recursos.
+- Diseño de proyectos modulares con **POO** y validaciones sólidas.
+- Integración de soluciones basadas en **TypeScript** para interfaces y servicios confiables.
 
 </details>
 
 <details>
-<summary><b>🛡️ Hardening Script Suite — Linux Server Baseline</b></summary>
-<br>
+<summary><b>🛡️ Red Team / Blue Team Lab</b></summary>
 
-**Problem:** Freshly deployed Linux servers have enormous default attack surfaces. Manual hardening is error-prone and inconsistent.
-
-**Architecture:** Modular Bash automation — each script handles one hardening domain: SSH config, firewall rules (ufw/iptables), service auditing, user privilege review, log monitoring.
-
-**Stack:** Bash · Linux · ufw · fail2ban · auditd
-
-**Outcome:** Reproducible, documented hardening baseline deployable across any Debian/Ubuntu system.
+- Laboratorio propio con segmentación, monitoreo y simulación de ataques.
+- Hardening de servidores, automatización de defensas y análisis de vectores de riesgo.
+- Iteración continua: identificar, explotar, detectar y mitigar.
 
 </details>
 
 ---
 
-## `$ ./stats --dark` — Activity
+## `$ ./metrics` — GitHub pulse
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=IvanLastra&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0a0a0f&title_color=00f5ff&icon_color=a78bfa&text_color=c9d1d9&ring_color=00f5ff"/>
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=Ivan140809&show_icons=true&theme=dark&hide_border=true&bg_color=0a0a0f&title_color=00F5FF&icon_color=A78BFA&text_color=C9D1D9&ring_color=00F5FF"/>
 
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IvanLastra&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0a0a0f&title_color=00f5ff&text_color=c9d1d9"/>
-
-<br><br>
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=IvanLastra&theme=dark&hide_border=true&background=0A0A0F&ring=00F5FF&fire=a78bfa&currStreakLabel=00F5FF&sideLabels=c9d1d9&dates=555"/>
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ivan140809&layout=compact&theme=dark&hide_border=true&bg_color=0a0a0f&title_color=00F5FF&text_color=C9D1D9"/>
 
 <br><br>
 
-<!-- Snake animation — replace USERNAME with your real GitHub username -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IvanLastra/IvanLastra/output/github-contribution-grid-snake-dark.svg"/>
-  <img alt="snake" src="https://raw.githubusercontent.com/IvanLastra/IvanLastra/output/github-contribution-grid-snake.svg"/>
-</picture>
+<img src="https://github-readme-streak-stats.herokuapp.com?user=Ivan140809&theme=dark&hide_border=true&background=0A0A0F&ring=00F5FF&fire=A78BFA&currStreakLabel=00F5FF&sideLabels=C9D1D9"/>
+
+<br><br>
+
+<img src="./heatmap-snake.svg" alt="Snake eating contributions" width="880" />
 
 </div>
 
 ---
 
-## `$ cat ./contact.cfg` — Connect
+## `$ cat ./music.fm` — En escucha ahora
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0a0f)](https://linkedin.com/in/IvanLastra)
-[![Email](https://img.shields.io/badge/Email-00f5ff?style=for-the-badge&logo=gmail&logoColor=0a0a0f&labelColor=0a0a0f)](mailto:tu@email.com)
+[![Spotify](https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white&labelColor=0a0a0f)](https://open.spotify.com/user/a9ukroymjidfm9ph2ux2kafft)
+
+</div>
+
+---
+
+## `$ cat ./contact.cfg` — Contacto
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0a0f)](https://www.linkedin.com/in/ivans-lastra/?skipRedirect=true)
+[![Email](https://img.shields.io/badge/Email-00f5ff?style=for-the-badge&logo=gmail&logoColor=0a0a0f&labelColor=0a0a0f)](mailto:ivansantiagolastra1408@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-00D8FF?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0a0a0f)](https://ivanlastra.dev)
 
 </div>
 
@@ -168,8 +160,8 @@ timeline   : 2025 → 2030
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0533,50:0d1b4b,100:0a0a0f&height=100&section=footer" width="100%"/>
 
-```
-// access log: visitor identified — credentials unverified — monitoring initiated
+```bash
+// profile: seguro, inteligente y listo para el siguiente desafío
 ```
 
 </div>

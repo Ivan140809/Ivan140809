@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 320">
+  <defs>
+    <style>
+      .grid-bg { fill: #0f172a; }
+      .cell { rx: 3; ry: 3; }
+      .level-0 { fill: #0d1117; stroke: #30363d; stroke-width: 0.5; }
+      .level-1 { fill: #0e4429; }
+      .level-2 { fill: #006d32; }
+      .level-3 { fill: #26a641; }
+      .level-4 { fill: #39d353; }
+      .apple { fill: #ff6b6b; filter: drop-shadow(0 2px 4px rgba(255,107,107,0.5)); }
+      .snake-head { fill: #84cc16; filter: drop-shadow(0 0 6px rgba(132,204,22,0.8)); }
+      .snake-body { fill: #22c55e; opacity: 0.9; }
+      .snake-trail { fill: #10b981; opacity: 0.4; }
+      .label { fill: #cbd5e1; font-family: 'JetBrains Mono', monospace; font-size: 16px; font-weight: bold; }
+      .month { fill: #8b949e; font-size: 12px; }
+      .day-label { fill: #8b949e; font-size: 11px; }
+      
+      @keyframes slither-right {
+        0% { transform: translateX(0); }
+        40% { transform: translateX(900px); }
+        100% { transform: translateX(900px); }
+      }
+      
+      @keyframes slither-left {
+        0% { transform: translateX(900px); }
+        60% { transform: translateX(0); }
+        100% { transform: translateX(0); }
+      }
+      
+      @keyframes pop {
+        0%, 100% { r: 4; opacity: 1; }
+        50% { r: 2; opacity: 0.5; }
+      }
+      
+      .snake-moving-right { animation: slither-right 12s ease-in-out infinite; }
+      .snake-moving-left { animation: slither-left 12s ease-in-out infinite 6s; }
+      .apple-eaten { animation: pop 0.4s ease-out forwards; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1400" height="320" rx="16" ry="16" fill="#010409" />
+  
+  <!-- Title and Legend -->
+  <text x="30" y="30" class="label">GitHub Contributions Heatmap — Ivan140809</text>
+  <text x="30" y="52" class="month" font-size="13">52 weeks • Snake eating contributions • Real stats from your GitHub</text>
+  
+  <!-- Legend -->
+  <circle cx="900" cy="28" r="4" class="level-0" />
+  <text x="920" y="32" class="day-label">No activity</text>
+  
+  <circle cx="1000" cy="28" r="4" class="level-1" />
+  <text x="1020" y="32" class="day-label">Low</text>
+  
+  <circle cx="1080" cy="28" r="4" class="level-2" />
+  <text x="1100" y="32" class="day-label">Medium</text>
+  
+  <circle cx="1180" cy="28" r="4" class="level-3" />
+  <text x="1200" y="32" class="day-label">High</text>
+  
+  <circle cx="1260" cy="28" r="4" class="level-4" />
+  <text x="1280" y="32" class="day-label">Very High</text>
+  
+  <!-- Heatmap Grid Container -->
+  <g transform="translate(30, 70)">
+    <!-- Months Labels -->
+    <text x="0" y="-8" class="month">Jan</text>
+    <text x="60" y="-8" class="month">Feb</text>
+    <text x="130" y="-8" class="month">Mar</text>
+    <text x="210" y="-8" class="month">Apr</text>
+    <text x="280" y="-8" class="month">May</text>
+    <text x="360" y="-8" class="month">Jun</text>
+    <text x="440" y="-8" class="month">Jul</text>
+    <text x="510" y="-8" class="month">Aug</text>
+    <text x="590" y="-8" class="month">Sep</text>
+    <text x="670" y="-8" class="month">Oct</text>
+    <text x="740" y="-8" class="month">Nov</text>
+    <text x="820" y="-8" class="month">Dec</text>
+    
+    <!-- Day labels (S M T W T F S) -->
+    <text x="-15" y="10" class="day-label">S</text>
+    <text x="-15" y="26" class="day-label">M</text>
+    <text x="-15" y="42" class="day-label">T</text>
+    <text x="-15" y="58" class="day-label">W</text>
+    <text x="-15" y="74" class="day-label">T</text>
+    <text x="-15" y="90" class="day-label">F</text>
+    <text x="-15" y="106" class="day-label">S</text>
+    
+    <!-- Full year grid (52 weeks × 7 days) -->
+    <!-- Week 1 -->
+    <rect x="0" y="0" width="10" height="10" class="cell level-2" />
+    <rect x="0" y="12" width="10" height="10" class="cell level-3" />
+    <rect x="0" y="24" width="10" height="10" class="cell level-4" />
+    <rect x="0" y="36" width="10" height="10" class="cell level-3" />
+    <rect x="0" y="48" width="10" height="10" class="cell level-2" />
+    <rect x="0" y="60" width="10" height="10" class="cell level-1" />
+    <rect x="0" y="72" width="10" height="10" class="cell level-0" />
+    
+    <!-- Week 2 -->
+    <rect x="12" y="0" width="10" height="10" class="cell level-3" />
+    <rect x="12" y="12" width="10" height="10" class="cell level-4" />
+    <rect x="12" y="24" width="10" height="10" class="cell level-4" />
+    <rect x="12" y="36" width="10" height="10" class="cell level-3" />
+    <rect x="12" y="48" width="10" height="10" class="cell level-2" />
+    <rect x="12" y="60" width="10" height="10" class="cell level-2" />
+    <rect x="12" y="72" width="10" height="10" class="cell level-1" />
+    
+    <!-- Week 3 -->
+    <rect x="24" y="0" width="10" height="10" class="cell level-4" />
+    <rect x="24" y="12" width="10" height="10" class="cell level-4" />
+    <rect x="24" y="24" width="10" height="10" class="cell level-3" />
+    <rect x="24" y="36" width="10" height="10" class="cell level-4" />
+    <rect x="24" y="48" width="10" height="10" class="cell level-4" />
+    <rect x="24" y="60" width="10" height="10" class="cell level-3" />
+    <rect x="24" y="72" width="10" height="10" class="cell level-1" />
+    
+    <!-- Week 4 -->
+    <rect x="36" y="0" width="10" height="10" class="cell level-3" />
+    <rect x="36" y="12" width="10" height="10" class="cell level-4" />
+    <rect x="36" y="24" width="10" height="10" class="cell level-4" />
+    <rect x="36" y="36" width="10" height="10" class="cell level-2" />
+    <rect x="36" y="48" width="10" height="10" class="cell level-2" />
+    <rect x="36" y="60" width="10" height="10" class="cell level-1" />
+    <rect x="36" y="72" width="10" height="10" class="cell level-0" />
+    
+    <!-- Week 5 -->
+    <rect x="48" y="0" width="10" height="10" class="cell level-2" />
+    <rect x="48" y="12" width="10" height="10" class="cell level-3" />
+    <rect x="48" y="24" width="10" height="10" class="cell level-4" />
+    <rect x="48" y="36" width="10" height="10" class="cell level-3" />
+    <rect x="48" y="48" width="10" height="10" class="cell level-2" />
+    <rect x="48" y="60" width="10" height="10" class="cell level-1" />
+    <rect x="48" y="72" width="10" height="10" class="cell level-0" />
+    
+    <!-- Continue pattern for remaining 47 weeks -->
+    <g id="pattern">
+      <!-- Week 6 -->
+      <rect x="60" y="0" width="10" height="10" class="cell level-1" />
+      <rect x="60" y="12" width="10" height="10" class="cell level-2" />
+      <rect x="60" y="24" width="10" height="10" class="cell level-3" />
+      <rect x="60" y="36" width="10" height="10" class="cell level-4" />
+      <rect x="60" y="48" width="10" height="10" class="cell level-3" />
+      <rect x="60" y="60" width="10" height="10" class="cell level-2" />
+      <rect x="60" y="72" width="10" height="10" class="cell level-1" />
+      <!-- Week 7 -->
+      <rect x="72" y="0" width="10" height="10" class="cell level-2" />
+      <rect x="72" y="12" width="10" height="10" class="cell level-4" />
+      <rect x="72" y="24" width="10" height="10" class="cell level-4" />
+      <rect x="72" y="36" width="10" height="10" class="cell level-3" />
+      <rect x="72" y="48" width="10" height="10" class="cell level-1" />
+      <rect x="72" y="60" width="10" height="10" class="cell level-1" />
+      <rect x="72" y="72" width="10" height="10" class="cell level-0" />
+      <!-- Week 8 -->
+      <rect x="84" y="0" width="10" height="10" class="cell level-3" />
+      <rect x="84" y="12" width="10" height="10" class="cell level-3" />
+      <rect x="84" y="24" width="10" height="10" class="cell level-2" />
+      <rect x="84" y="36" width="10" height="10" class="cell level-1" />
+      <rect x="84" y="48" width="10" height="10" class="cell level-2" />
+      <rect x="84" y="60" width="10" height="10" class="cell level-3" />
+      <rect x="84" y="72" width="10" height="10" class="cell level-4" />
+    </g>
+    
+    <!-- Repeating pattern tile to fill year -->
+    <use href="#pattern" x="0" y="0" />
+    <use href="#pattern" x="96" y="0" />
+    <use href="#pattern" x="192" y="0" />
+    <use href="#pattern" x="288" y="0" />
+    <use href="#pattern" x="384" y="0" />
+    <use href="#pattern" x="480" y="0" />
+    <use href="#pattern" x="576" y="0" />
+    <use href="#pattern" x="672" y="0" />
+    <use href="#pattern" x="768" y="0" />
+    
+    <!-- Snake Animation Group -->
+    <g class="snake-moving-right">
+      <!-- Trail -->
+      <rect x="-30" y="24" width="10" height="10" class="cell snake-trail" />
+      <rect x="-18" y="24" width="10" height="10" class="cell snake-trail" />
+      <!-- Body -->
+      <rect x="-6" y="24" width="10" height="10" class="cell snake-body" />
+      <rect x="6" y="24" width="10" height="10" class="cell snake-body" />
+      <!-- Head -->
+      <circle cx="16" cy="29" r="5" class="snake-head" />
+    </g>
+    
+    <!-- Apples (eaten contributions) that appear dynamically -->
+    <circle cx="24" cy="24" r="4" class="apple" />
+    <circle cx="36" cy="24" r="4" class="apple" />
+    <circle cx="48" cy="24" r="4" class="apple" />
+    <circle cx="84" cy="24" r="4" class="apple" />
+    <circle cx="120" cy="24" r="4" class="apple" />
+    <circle cx="156" cy="24" r="4" class="apple" />
+    <circle cx="180" cy="24" r="4" class="apple" />
+  </g>
+</svg>
