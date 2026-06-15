@@ -134,11 +134,19 @@ current    : "Automatización de detección de incidentes con AI y análisis de 
 
 ---
 
-## `$ cat ./music.fm` — En escucha ahora
+## `$ cat ./music.fm` — En escucha
 
 <div align="center">
 
-[![Spotify](https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white&labelColor=0a0a0f)](https://open.spotify.com/user/a9ukroymjidfm9ph2ux2kafft)
+[![Mi Playlist](./spotify-card.svg)](https://open.spotify.com/playlist/54xDppMIQXxjzAtKV2oiFA)
+
+<!-- SPOTIFY_START -->
+| # | Canción | Artista | Duración |
+|:---:|:---|:---|:---:|
+| `1` | **—** | — | `—` |
+
+<sub>🎧 De mi playlist en Spotify · pendiente de configuración</sub>
+<!-- SPOTIFY_END -->
 
 </div>
 

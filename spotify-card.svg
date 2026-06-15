@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 80" width="480">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="bar-grad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#1DB954"/>
+      <stop offset="100%" stop-color="#1ed760"/>
+    </linearGradient>
+    <clipPath id="card-clip">
+      <rect width="480" height="80" rx="12"/>
+    </clipPath>
+    <style>
+      .b1 { animation: bar1 1.2s ease-in-out infinite alternate; }
+      .b2 { animation: bar2 0.9s ease-in-out infinite alternate; }
+      .b3 { animation: bar3 1.4s ease-in-out infinite alternate; }
+      .b4 { animation: bar4 1.0s ease-in-out infinite alternate; }
+      .b5 { animation: bar5 1.3s ease-in-out infinite alternate; }
+      @keyframes bar1 { 0%{height:6px;y:22px} 100%{height:18px;y:10px} }
+      @keyframes bar2 { 0%{height:14px;y:14px} 100%{height:8px;y:20px} }
+      @keyframes bar3 { 0%{height:20px;y:8px} 100%{height:6px;y:22px} }
+      @keyframes bar4 { 0%{height:10px;y:18px} 100%{height:20px;y:8px} }
+      @keyframes bar5 { 0%{height:16px;y:12px} 100%{height:8px;y:20px} }
+      .pulse { animation: pulse 2s ease-in-out infinite; }
+      @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.6} }
+      .title { font-family: 'JetBrains Mono',monospace; font-size: 14px; font-weight: bold; fill: #ffffff; }
+      .sub   { font-family: 'JetBrains Mono',monospace; font-size: 10px; fill: #8b949e; }
+      .label { font-family: 'JetBrains Mono',monospace; font-size: 9px;  fill: #1DB954; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="480" height="80" rx="12" fill="url(#bg)" clip-path="url(#card-clip)"/>
+  <rect width="480" height="80" rx="12" fill="none" stroke="#1DB954" stroke-width="1" stroke-opacity="0.4"/>
+
+  <!-- Spotify logo circle -->
+  <circle cx="36" cy="40" r="18" fill="#1DB954"/>
+  <path d="M28.5,34.5 Q36,30.5 43.5,34.5" stroke="#0d1117" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+  <path d="M30,39 Q36,35.5 42,39" stroke="#0d1117" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M31.5,43.5 Q36,40.5 40.5,43.5" stroke="#0d1117" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+
+  <!-- Waveform bars (animated) -->
+  <rect x="64" width="4" rx="2" fill="url(#bar-grad)" class="b1" y="22" height="6"/>
+  <rect x="71" width="4" rx="2" fill="url(#bar-grad)" class="b2" y="14" height="14"/>
+  <rect x="78" width="4" rx="2" fill="url(#bar-grad)" class="b3" y="8"  height="20"/>
+  <rect x="85" width="4" rx="2" fill="url(#bar-grad)" class="b4" y="18" height="10"/>
+  <rect x="92" width="4" rx="2" fill="url(#bar-grad)" class="b5" y="12" height="16"/>
+
+  <!-- Text content -->
+  <text x="110" y="30" class="label">▶  REPRODUCIENDO</text>
+  <text x="110" y="48" class="title">Mi Playlist de Spotify</text>
+  <text x="110" y="64" class="sub">Ivan Lastra · playlist · abierta en Spotify</text>
+
+  <!-- Right arrow / play hint -->
+  <text x="446" y="44" font-family="monospace" font-size="20" fill="#1DB954" class="pulse">›</text>
+</svg>
