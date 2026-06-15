@@ -129,14 +129,17 @@ current    : "Automatización de detección de incidentes con AI y análisis de 
 
 <img src="https://github-readme-streak-stats.herokuapp.com?user=Ivan140809&theme=dark&hide_border=true&background=0A0A0F&ring=00F5FF&fire=A78BFA&currStreakLabel=00F5FF&sideLabels=C9D1D9"/>
 
+<br><br>
+
+<img src="./heatmap-snake.svg" alt="Contribution snake" width="880" />
+
 </div>
 
 ---
 
 ## `$ tail -f ./activity.log` — Actividad reciente
 
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
+
 
 ---
 
