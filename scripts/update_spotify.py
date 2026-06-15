@@ -21,10 +21,6 @@ def get_token():
         data={"grant_type": "refresh_token", "refresh_token": REFRESH_TOKEN},
         headers={"Authorization": f"Basic {credentials}"},
     )
-    if not r.ok:
-        print(f"Token error {r.status_code}: {r.text}")
-        print(f"CLIENT_ID length: {len(CLIENT_ID)}")
-        print(f"REFRESH_TOKEN length: {len(REFRESH_TOKEN)}")
     r.raise_for_status()
     return r.json()["access_token"]
 
