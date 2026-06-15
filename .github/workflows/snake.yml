@@ -1,0 +1,25 @@
+name: Generate Contribution Snake
+
+on:
+  schedule:
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: Ivan140809
+          outputs: |
+            heatmap-snake.svg?palette=github-dark
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: update contribution snake'
+          file_pattern: heatmap-snake.svg

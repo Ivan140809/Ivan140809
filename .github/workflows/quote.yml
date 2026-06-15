@@ -1,0 +1,59 @@
+name: Update Security Quote
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update quote
+        run: |
+          python3 - << 'EOF'
+          import re
+          from datetime import datetime
+
+          QUOTES = [
+            ("Security is not a product, but a process.", "Bruce Schneier"),
+            ("Amateurs hack systems, professionals hack people.", "Bruce Schneier"),
+            ("Complexity is the enemy of security.", "Bruce Schneier"),
+            ("If you think technology can solve your security problems, then you don't understand the problems and you don't understand the technology.", "Bruce Schneier"),
+            ("The only secure computer is one that's unplugged, locked in a safe, and buried 20 feet under the ground.", "Dennis Hughes"),
+            ("Hackers are breaking the systems for profit. Before, it was about intellectual curiosity and pursuit of knowledge.", "Kevin Mitnick"),
+            ("Encryption works. Properly implemented strong crypto systems are one of the few things that you can rely on.", "Edward Snowden"),
+            ("The art of war teaches us to rely not on the likelihood of the enemy's not coming, but on our own readiness to receive him.", "Sun Tzu"),
+            ("Know thy enemy and know yourself; in a hundred battles, you will never be defeated.", "Sun Tzu"),
+            ("The question is not if you will be breached, but when.", "Robert Mueller"),
+            ("Privacy is not something that I'm merely entitled to, it's an absolute prerequisite.", "Marlon Brando"),
+            ("Give a man a zero-day and he'll have access for a day. Teach a man to phish and he'll have access for life.", "Unknown"),
+            ("The hacker mindset doesn't actually see what happens on the other side, to the victim.", "Kevin Mitnick"),
+            ("There are only two types of companies: those that have been hacked, and those that will be.", "Robert Mueller"),
+          ]
+
+          day = datetime.utcnow().timetuple().tm_yday
+          quote, author = QUOTES[day % len(QUOTES)]
+
+          section = f"<!-- QUOTE_START -->\n> *\"{quote}\"*\n>\n> &mdash; **{author}**\n<!-- QUOTE_END -->"
+
+          with open("README.md", "r") as f:
+              content = f.read()
+
+          pattern = re.compile(r"<!-- QUOTE_START -->.*?<!-- QUOTE_END -->", re.DOTALL)
+          new_content = pattern.sub(section, content)
+
+          with open("README.md", "w") as f:
+              f.write(new_content)
+
+          print(f"Quote updated: {author}")
+          EOF
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: update daily security quote'
+          file_pattern: README.md

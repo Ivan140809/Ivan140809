@@ -30,6 +30,12 @@ Mi enfoque combina:
 
 > Mi misión es diseñar sistemas que no solo funcionen, sino que sobrevivan y aprendan frente a ataques reales.
 
+<!-- QUOTE_START -->
+> *"Security is not a product, but a process."*
+>
+> &mdash; **Bruce Schneier**
+<!-- QUOTE_END -->
+
 ---
 
 ## `$ ls ./skillset` — Habilidades principales
@@ -131,6 +137,13 @@ current    : "Automatización de detección de incidentes con AI y análisis de 
 <img src="./heatmap-snake.svg" alt="Snake eating contributions" width="880" />
 
 </div>
+
+---
+
+## `$ tail -f ./activity.log` — Actividad reciente
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 ---
 
