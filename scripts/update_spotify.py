@@ -27,10 +27,12 @@ def get_token():
 def get_playlist_tracks(token, limit=5):
     r = requests.get(
         f"https://api.spotify.com/v1/playlists/{PLAYLIST_ID}/tracks",
-        params={"limit": limit, "fields": "items(track(name,artists,external_urls,duration_ms))"},
+        params={"limit": limit},
         headers={"Authorization": f"Bearer {token}"},
     )
-    r.raise_for_status()
+    if not r.ok:
+        print(f"Error {r.status_code}: {r.text}")
+        r.raise_for_status()
     tracks = []
     for item in r.json().get("items", []):
         t = item.get("track")

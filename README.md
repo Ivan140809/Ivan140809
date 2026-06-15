@@ -140,13 +140,13 @@ current    : "Automatización de detección de incidentes con AI y análisis de 
 
 [![Mi Playlist](./spotify-card.svg)](https://open.spotify.com/playlist/54xDppMIQXxjzAtKV2oiFA)
 
-<!-- SPOTIFY_START -->
+
 | # | Canción | Artista | Duración |
 |:---:|:---|:---|:---:|
 | `1` | **—** | — | `—` |
 
-<sub>🎧 De mi playlist en Spotify · pendiente de configuración</sub>
-<!-- SPOTIFY_END -->
+<sub> De mi playlist en Spotify · pendiente de configuración</sub>
+
 
 </div>
 
@@ -166,10 +166,6 @@ current    : "Automatización de detección de incidentes con AI y análisis de 
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0533,50:0d1b4b,100:0a0a0f&height=100&section=footer" width="100%"/>
-
-```bash
-// profile: seguro, inteligente y listo para el siguiente desafío
-```
+<img src="./footer-banner.svg" width="100%"/>
 
 </div>
