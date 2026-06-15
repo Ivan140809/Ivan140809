@@ -134,24 +134,6 @@ current    : "Automatización de detección de incidentes con AI y análisis de 
 
 ---
 
-## `$ cat ./music.fm` — En escucha
-
-<div align="center">
-
-[![Mi Playlist](./spotify-card.svg)](https://open.spotify.com/playlist/54xDppMIQXxjzAtKV2oiFA)
-
-
-| # | Canción | Artista | Duración |
-|:---:|:---|:---|:---:|
-| `1` | **—** | — | `—` |
-
-<sub> De mi playlist en Spotify · pendiente de configuración</sub>
-
-
-</div>
-
----
-
 ## `$ cat ./contact.cfg` — Contacto
 
 <div align="center">
