@@ -6,6 +6,7 @@ from datetime import datetime, timezone
 
 CLIENT_ID     = os.environ["SPOTIFY_CLIENT_ID"]
 CLIENT_SECRET = os.environ["SPOTIFY_CLIENT_SECRET"]
+REFRESH_TOKEN = os.environ["SPOTIFY_REFRESH_TOKEN"]
 PLAYLIST_ID   = "54xDppMIQXxjzAtKV2oiFA"
 
 README_PATH  = "README.md"
@@ -17,7 +18,7 @@ def get_token():
     credentials = base64.b64encode(f"{CLIENT_ID}:{CLIENT_SECRET}".encode()).decode()
     r = requests.post(
         "https://accounts.spotify.com/api/token",
-        data={"grant_type": "client_credentials"},
+        data={"grant_type": "refresh_token", "refresh_token": REFRESH_TOKEN},
         headers={"Authorization": f"Basic {credentials}"},
     )
     r.raise_for_status()
