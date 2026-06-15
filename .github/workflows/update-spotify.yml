@@ -2,8 +2,8 @@ name: Update Spotify Recently Played
 
 on:
   schedule:
-    - cron: '0 * * * *'   # cada hora
-  workflow_dispatch:        # también se puede correr manualmente
+    - cron: '0 * * * *'   
+  workflow_dispatch:        
 
 jobs:
   update:
