@@ -30,13 +30,10 @@ Mi enfoque combina:
 
 > Mi misión es diseñar sistemas que no solo funcionen, sino que sobrevivan y aprendan frente a ataques reales.
 
-<!-- QUOTE_START -->
 > *"Security is not a product, but a process."*
 >
 > &mdash; **Bruce Schneier**
-<!-- QUOTE_END -->
 
----
 
 ## `$ ls ./skillset` — Habilidades principales
 
@@ -131,10 +128,6 @@ current    : "Automatización de detección de incidentes con AI y análisis de 
 <br><br>
 
 <img src="https://github-readme-streak-stats.herokuapp.com?user=Ivan140809&theme=dark&hide_border=true&background=0A0A0F&ring=00F5FF&fire=A78BFA&currStreakLabel=00F5FF&sideLabels=C9D1D9"/>
-
-<br><br>
-
-<img src="./heatmap-snake.svg" alt="Snake eating contributions" width="880" />
 
 </div>
 
