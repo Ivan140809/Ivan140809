@@ -139,6 +139,9 @@ current    : "Automatización de detección de incidentes con AI y análisis de 
 
 ## `$ tail -f ./activity.log` — Actividad reciente
 
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
 
 
 ---
