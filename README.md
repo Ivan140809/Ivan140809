@@ -140,11 +140,11 @@ current    : "Automatización de detección de incidentes con AI y análisis de 
 ## `$ tail -f ./activity.log` — Actividad reciente
 
 <!--START_SECTION:activity-->
-1. ℹ️ Assigned issue [#16](https://github.com/CapituloJaverianoACM/UniApp-ACM/issues/16) in [CapituloJaverianoACM/UniApp-ACM](https://github.com/CapituloJaverianoACM/UniApp-ACM)
-2. 🔒 Closed issue [#12](https://github.com/CapituloJaverianoACM/UniApp-ACM/issues/12) in [CapituloJaverianoACM/UniApp-ACM](https://github.com/CapituloJaverianoACM/UniApp-ACM)
-3. 🎉 Merged PR [#31](https://github.com/CapituloJaverianoACM/UniApp-ACM/pull/31) in [CapituloJaverianoACM/UniApp-ACM](https://github.com/CapituloJaverianoACM/UniApp-ACM)
-4. 💪 Opened PR [#31](https://github.com/CapituloJaverianoACM/UniApp-ACM/pull/31) in [CapituloJaverianoACM/UniApp-ACM](https://github.com/CapituloJaverianoACM/UniApp-ACM)
-5. ℹ️ Assigned issue [#14](https://github.com/CapituloJaverianoACM/UniApp-ACM/issues/14) in [CapituloJaverianoACM/UniApp-ACM](https://github.com/CapituloJaverianoACM/UniApp-ACM)
+1. ℹ️ Assigned issue [#18](https://github.com/CapituloJaverianoACM/UniApp-ACM/issues/18) in [CapituloJaverianoACM/UniApp-ACM](https://github.com/CapituloJaverianoACM/UniApp-ACM)
+2. 🔒 Closed issue [#14](https://github.com/CapituloJaverianoACM/UniApp-ACM/issues/14) in [CapituloJaverianoACM/UniApp-ACM](https://github.com/CapituloJaverianoACM/UniApp-ACM)
+3. 🎉 Merged PR [#32](https://github.com/CapituloJaverianoACM/UniApp-ACM/pull/32) in [CapituloJaverianoACM/UniApp-ACM](https://github.com/CapituloJaverianoACM/UniApp-ACM)
+4. 💪 Opened PR [#32](https://github.com/CapituloJaverianoACM/UniApp-ACM/pull/32) in [CapituloJaverianoACM/UniApp-ACM](https://github.com/CapituloJaverianoACM/UniApp-ACM)
+5. ℹ️ Unassigned issue [#16](https://github.com/CapituloJaverianoACM/UniApp-ACM/issues/16) in [CapituloJaverianoACM/UniApp-ACM](https://github.com/CapituloJaverianoACM/UniApp-ACM)
 <!--END_SECTION:activity-->
 
 
