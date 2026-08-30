@@ -140,7 +140,7 @@ current    : "Automatización de detección de incidentes con AI y análisis de 
 ## `$ tail -f ./activity.log` — Actividad reciente
 
 <!--START_SECTION:activity-->
-1. 🔒 Closed issue [#20](https://github.com/CapituloJaverianoACM/UniApp-ACM/issues/20) in [CapituloJaverianoACM/UniApp-ACM](https://github.com/CapituloJaverianoACM/UniApp-ACM)
+1. ❗ Opened issue [#2](https://github.com/CapituloJaverianoACM/Proyecto2026-30/issues/2) in [CapituloJaverianoACM/Proyecto2026-30](https://github.com/CapituloJaverianoACM/Proyecto2026-30)
 2. 🔒 Closed issue [#21](https://github.com/CapituloJaverianoACM/UniApp-ACM/issues/21) in [CapituloJaverianoACM/UniApp-ACM](https://github.com/CapituloJaverianoACM/UniApp-ACM)
 3. 🔒 Closed issue [#6](https://github.com/CapituloJaverianoACM/UniApp-ACM/issues/6) in [CapituloJaverianoACM/UniApp-ACM](https://github.com/CapituloJaverianoACM/UniApp-ACM)
 4. 🎉 Merged PR [#65](https://github.com/CapituloJaverianoACM/UniApp-ACM/pull/65) in [CapituloJaverianoACM/UniApp-ACM](https://github.com/CapituloJaverianoACM/UniApp-ACM)
